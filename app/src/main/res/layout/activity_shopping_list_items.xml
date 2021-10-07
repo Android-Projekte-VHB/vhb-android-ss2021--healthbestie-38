@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="70"
         android:padding="10dp"
-        android:textColor="@color/black"
+        android:textColor="@color/color_primary"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
         android:layout_weight="30"
         android:padding="10dp"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:textColor="@color/color_primary"
         android:textSize="14sp" />
 
 </LinearLayout>
