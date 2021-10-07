@@ -1,3 +1,8 @@
-# Das Team
+# Health Bestie Team
 
-_Beschreiben Sie hier die einzelnen Teammitglieder mit Namen, E-Mail-Adresse, Github-Nutzer und Foto. Nennen Sie mindestens eine Komponenten der Anwendung, die in wesentlichen Teilen vom jeweiligen Teammitglied entwickelt wurde. Nutzen Sie eine Tabelle zur sinnvollen Formatierung der Angaben und verwenden Sie zur Beschreibung der von Ihnen implementierten Komponenten direkte Links zum Code hier im Repository._
+Teammitgleder | Thi Ha My Pham | Viet Hang Thu Le
+------------ | ------------- | -------------
+E-Mail-Adresse | hamypham2000@gmail.com |
+Github-Nutzer | judy2301 |
+Foto | ![image](https://drive.google.com/uc?export=view&id=1b4A2AyRyzRIeWKmiFniAFhidI6uylaPF) |
+Komponenten der Anwendung | [Login](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/Login.java), [Register](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/Register.java), [Profile](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/tree/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/drawer_menu_fragments/profile), [Settings](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/drawer_menu_fragments/SettingsFragment.java), [Feedback](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/drawer_menu_fragments/FeedbackFragment.java), [Policy Privacy](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/drawer_menu_fragments/PolicyFragment.java), [Find Supermarket](https://github.com/Android-Projekte-VHB/vhb-android-ss2021--healthbestie-38/blob/main/app/src/main/java/de/ur/mi/android/demos/healthbestie/dashboard/SupermarketFinder.java)|
