@@ -9,11 +9,11 @@ Viele Menschen wissen nicht oder interessieren sich nicht dafür, wie viel sie t
 
 ## 📋 Features und Szenarien
 
-Wichtigsten Funktionen der Anwendung:
-
 1. Zuerst muss der Nutzer sich in unsere App **mit einem Facebook-, Google-Konto oder eigenen Konto einloggen**.
 
 ![Alt Text](https://media.giphy.com/media/gM0N5vj7IlpRxwR4Kz/giphy.gif)
+
+In der App haben wir ingesamt 6 Funktionen. 
 
 2. **Calories Caculator** : berechnet, wie viele Kalorien wir täglich mit unserer Ernährung zu uns nehmen sollten.
 
