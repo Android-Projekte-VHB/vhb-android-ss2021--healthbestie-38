@@ -8,4 +8,4 @@ _Beschreiben Sie hier kurz und knapp die wesentlichen Ziele und Funktionen Ihrer
 - [_User Guide_ zur App](App.md)
 - [Das Team](Team.md)
 - [Link zum Trailer]()
-- [APK-Datei der fertigen Version]()
+- [APK-Datei der fertigen Version](app-v1.0-release.apk)
