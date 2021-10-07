@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calories_function_name"
+            android:textAlignment="center"
+            android:textColor="@color/color_primary"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notice"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="@color/dark_gray"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:text="@string/label_height"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/heightInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="80"
+                android:hint="@string/height_input"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:text="@string/label_weight"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/weightInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="80"
+                android:hint="@string/weight_input"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_status"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/lvl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_lvl_1"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/lvl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_lvl_2"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/lvl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_lvl_3"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/lvl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_lvl_4"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/lvl5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:text="@string/active_lvl_5"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/calculateCaloriesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_primary"
+            android:text="@string/calories_calculate_button"
+            android:textColor="@color/white"
+            android:layout_marginStart="125dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/food_bg"/>
+
+    </LinearLayout>
+
+</LinearLayout>

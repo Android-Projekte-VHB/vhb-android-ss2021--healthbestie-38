@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.water_reminder_function.WaterReminder">
+
+    <LinearLayout
+        android:id="@+id/toolbar_waterReminder"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="307dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+
+    <TextView
+        android:id="@+id/Water_Reminder_Label"
+        android:layout_width="144dp"
+        android:layout_height="27dp"
+        android:text="Water Reminder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_waterReminder"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar_waterReminder"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_waterReminder"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_waterReminder" />
+
+    <Button
+        android:id="@+id/waterReminder_Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="57dp"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waterReminder_frequency" />
+
+    <Button
+        android:id="@+id/waterReminder_CancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/waterReminder_Confirm"
+        app:layout_constraintStart_toEndOf="@+id/waterReminder_Confirm" />
+
+    <TextView
+        android:id="@+id/Water_Reminder_Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="229dp"
+        android:text="How often do you want to be notified?"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/waterReminder_Confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Water_Reminder_Label" />
+
+    <EditText
+        android:id="@+id/waterReminder_frequency"
+        android:layout_width="87dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="242dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_waterReminder"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="98dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="135dp"
+        android:text="Minutes"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/waterReminder_frequency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/waterReminder_frequency"
+        app:layout_constraintTop_toTopOf="@+id/waterReminder_frequency"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

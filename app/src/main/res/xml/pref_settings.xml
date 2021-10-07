@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="General">
+        <SwitchPreference
+            android:title="Night Mode"
+            android:key="NIGHT"
+            android:defaultValue="false"
+            android:summaryOn="activated"
+            android:summaryOff="deactivated"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Security">
+        <SwitchPreference
+            android:title="Enable Biometrics"
+            android:key="BIOMETRIC"
+            android:defaultValue="false"
+            android:summary="Use fingerprint or face to authenticate">
+        </SwitchPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

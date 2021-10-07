@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.ur.mi.android.demos.healthbestie">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthBestie">
+
+        <activity
+            android:name=".dashboard.water_reminder_function.WaterReminder"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.shopping_list_function.ShoppingList"
+            android:exported="true" />
+
+        <activity
+            android:name=".dashboard.SupermarketFinder"
+            android:exported="true"
+            android:label="@string/title_activity_supermarket_finder" />
+        <activity
+            android:name=".dashboard.water_reminder_function.WaterReminderSuccess"
+            android:exported="true" />
+
+
+        <receiver android:name=".dashboard.service.ReminderBroadcast" />
+
+        <activity
+            android:name=".dashboard.recipe_suggestion_function.Alphabets"
+            android:exported="true" />
+
+        <activity
+            android:name=".dashboard.recipe_suggestion_function.Categories"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.recipe_suggestion_function.FoodDetails"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.recipe_suggestion_function.SearchFood"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.recipe_suggestion_function.RecipeSuggestion"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.sleep_calculator_function.SleepCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.sleep_calculator_function.SleepCalculator2ndScreen"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.sleep_calculator_function.SleepCalculator3rdScreen"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.calories_calculator_function.CaloriesCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard.calories_calculator_function.CaloriesCalculatorResult"
+            android:exported="true" />
+        <activity
+            android:name=".drawer_menu_fragments.NavigationDrawer"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

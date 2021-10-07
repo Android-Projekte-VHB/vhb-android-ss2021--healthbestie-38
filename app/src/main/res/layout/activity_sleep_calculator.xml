@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_calculation_label"
+            android:textAlignment="center"
+            android:textColor="@color/color_primary"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:lineHeight="21sp"
+            android:textAlignment="center"
+            android:text="@string/sleep_calculation_description1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_calculation_description2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_options_label"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioBtnSleepOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/wakeUpOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:textSize="18sp"
+                android:text="@string/wake_up_time_option"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/sleepTimeOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="100"
+                android:textSize="18sp"
+                android:text="@string/sleep_time_option"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/nextButtonSleepCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/white"
+            android:text="@string/next_button"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sleep_cycle"/>
+
+</LinearLayout>

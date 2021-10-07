@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Health Bestie</string>
+    <string name="facebook_app_id">1056026038552378</string>
+    <string name="fb_login_protocol_scheme">fb1056026038552378</string>
+
+
+    <string name="open_nav_drawer">Open navigation drawer</string>
+    <string name="close_nav_drawer">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="underline"> <u>Forget password?</u> </string>
+    <string name="title_activity_supermarket_finder">SupermarketFinder</string>
+
+
+    <string name="calories_function_name">Daily Calorie Intake Calculator</string>
+    <string name="calo_usage">For Accurate Calculation, We Need Some Basic Info About You</string>
+    <string name="label_age">Age</string>
+    <string name="age_input">How Old Are You?</string>
+    <string name="label_height">Height</string>
+    <string name="height_input">How Tall Are You? (in cm)</string>
+    <string name="label_weight">Weight</string>
+    <string name="weight_input">How Much Do You Weigh? (in kg)</string>
+    <string name="active_status">How Active Are You?</string>
+    <string name="active_lvl_1">Sedentary (little or no exercise)</string>
+    <string name="active_lvl_2">Lightly active (exercise 1–3 days/week)</string>
+    <string name="active_lvl_3">Moderately active (exercise 3–5 days/week)</string>
+    <string name="active_lvl_4">Active (exercise 6–7 days/week)</string>
+    <string name="active_lvl_5">Very active (hard exercise 6–7 days/week)</string>
+    <string name="calories_calculate_button">Calculate</string>
+    <string name="calories_needed_label">Estimated daily calories you should take in a day to MAINTAIN YOUR WEIGHT:</string>
+    <string name="calories_loose_label">LOOSE WEIGHT:</string>
+    <string name="calories_gain_label">GAIN WEIGHT:</string>
+
+    <string name="bedtime_calculate_button">Bed Time Calculate</string>
+    <string name="sleep_calculation_label">Sleep Cycle Calculator</string>
+    <string name="sleep_calculation_description1">What Time Should I Go To Bed?</string>
+    <string name="sleep_calculation_description2">When Should I Wake Up?</string>
+    <string name="choose_options_label">  Please choose one option:</string>
+    <string name="wake_up_time_option">I want to wake up at...</string>
+    <string name="sleep_time_option">I plan to go to bed at...</string>
+    <string name="next_button">Next ></string>
+    <string name="nine_hours_sleep_label">for 9 hrs of sleep, 6 sleep cycles</string>
+    <string name="seven_hours_sleep_label">for 7.5 hrs of sleep, 5 sleep cycles</string>
+    <string name="six_hours_sleep_label">for 6 hrs of sleep, 4 sleep cycles</string>
+    <string name="four_hours_sleep_label">for 4.5 hrs of sleep, 3 sleep cycles</string>
+
+    <string name="title_activity_water_remind_success">waterRemindSuccess</string>
+
+    <string name="input_hint">Remember to buy...</string>
+    <string name="input_button_label">+</string>
+    <string name="app_description">Press the item to change its status</string>
+    <string name="task_id_tag_for_views">TASK_UUID</string>
+
+ <string name="notice">Please specify your age and gender on your Profile to get an accurate result</string>
+</resources>
