@@ -1,16 +1,50 @@
-# Name Ihrer App
+# Health Bestie App ⚕️
 
-_Beschreiben Sie entlang der vorgegebenen Struktur Ihre Anwendung. Nutzen Sie dazu Screenshots, Videos und andere, Ihnen sinnvoll erscheinenden Medien. Beginnen Sie mit einer knappen Zusammenfassung, die den durch Ihre App generierten Mehrwert für die intendierten Nutzer\*innen deutlich macht._
+Unsere App bietet zur Gesundheitsvorsorge an. Diese hilft dem Nutzer, einen gesünderen Lebensstil zu führen. 
+*Ernährung und Schlaf sind für Wohlbefinden und Gesundheit entscheidend.*
 
-## Zielgruppe und Problemstellung
+## 👪 Zielgruppe und Problemstellung 
 
-_Beschreiben Sie die Zielgruppe Ihrer Anwendung genauer. Für wen entwickeln Sie die Anwendung und vor welchen Herausforderungen stehen diese Menschen, die nun mit Hilfe Ihrer App bewältigt werden können?_
+Viele Menschen wissen nicht oder interessieren sich nicht dafür, wie viel sie täglich essen oder trinken sollten. Dies führt oft dazu, dass sie zu wenig Wasser trinken oder ihren tatsächlichen Kalorienbedarf extrem überschreiten. Unsere Anwendung  ist für alle nützlich, die einen gesunden Lebensstil aufrechterhalten möchten. Die NutzerInnen können sowohl ihre Nahrungs- und Wasseraufnahme kontrollieren als auch das individuelle Schlafbedürfnis einfacher erfüllen.
 
-## Features und Szenarien
+## 📋 Features und Szenarien
 
-_Beschreiben Sie die wichtigsten Funktionen Ihrer Anwendung. Was können die Nutzer\*innen mit Ihrer Anwendung tun? Verwenden Sie zur Beschreibung Beschreiben dieser zentralen Features auch Screenshots oder animierte Gifs aus Ihrer Anwendung. Dokumentieren Sie im Anschluss anhand ausgewählter Szenarien einige ausgesuchte, wichtige Arten der Nutzung der App durch die Zielgruppe. Beschreiben Sie dazu anhand eines gedachten Walkthroughs durch die Anwendung, in welcher Reihenfolge die Nutzer\*innen die genannten Funktionen der Anwendung verwenden, um wichtige Ziele zu erreichen._
+Wichtigsten Funktionen der Anwendung:
 
-## Erreichter Stand
+1. Zuerst muss der Nutzer sich in unsere App **mit einem Facebook-, Google-Konto oder eigenen Konto einloggen**.
+
+![Alt Text](https://media.giphy.com/media/gM0N5vj7IlpRxwR4Kz/giphy.gif)
+
+2. **Calories Caculator** : berechnet, wie viele Kalorien wir täglich mit unserer Ernährung zu uns nehmen sollten.
+
+![Alt Text](https://media.giphy.com/media/eZAMxR33pcY3NAcqTX/giphy.gif)
+
+3. **Recipe Ideas** : vorschlägt zahreichende leichte und köstliche Reezepte
+
+![Alt Text](https://media.giphy.com/media/B67IR8Q0dJAstc7AEd/giphy.gif) 
+
+4. **Shopping List** :  Einkaufsliste für die Dinge, die wir kaufen möchten
+
+![Alt Text](https://media.giphy.com/media/Hd7Fnd6LBjn2gZgVOc/giphy.gif)
+
+5. **Water Reminder** : erinnert uns daran, regelmäßig Wasser zu trinken.
+
+![Alt Text](https://media.giphy.com/media/NKyiFYVYbyD829SMbA/giphy.gif)
+
+6. **Find Supermarkt** : hiflt uns, Supermärkten in der Nähe zu finden.
+
+![Alt Text](https://media.giphy.com/media/Fc9ikFWtTlciK65UEI/giphy.gif)
+
+7. **Sleep Calculator** : berechnet unsere Einschlaf- und Weckzeit.
+
+![Alt Text](https://media.giphy.com/media/PDlortjsRe1fduyHT0/giphy.gif)
+
+8. Außerdem kann der Nutzer sein Profil irgendwann verändern oder den Tag/Nacht-Modus aktivieren. Er kann auch die biometrische-Authentifizierung für die App ab-/einschalten.
+
+![Alt Text](https://media.giphy.com/media/Ikz1aDimHasJIJr0qN/giphy.gif)   ![Alt Text](https://media.giphy.com/media/0XqvgPIfRuaiDUdSSD/giphy.gif)
+
+
+##  Erreichter Stand
 
 _Beschreiben Sie kurz, ob und wenn ja wie, der erreichte Stand Ihrer Anwendung von dem ursprünglich geplanten Konzept abweicht. Begründen Sie ggf. aufgetreten Abweichungen._
 
