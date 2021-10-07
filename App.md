@@ -44,10 +44,10 @@ In der App haben wir ingesamt 6 Funktionen.
 ![Alt Text](https://media.giphy.com/media/Ikz1aDimHasJIJr0qN/giphy.gif)   ![Alt Text](https://media.giphy.com/media/0XqvgPIfRuaiDUdSSD/giphy.gif)
 
 
-##  Erreichter Stand
+## ✔️ Erreichter Stand
 
-_Beschreiben Sie kurz, ob und wenn ja wie, der erreichte Stand Ihrer Anwendung von dem ursprünglich geplanten Konzept abweicht. Begründen Sie ggf. aufgetreten Abweichungen._
+Der erreichte Stand unserer Anwendung abweicht nur wenig von dem ursprünglich geplanten Konzept. Am Anfang haben wir geplant, dass der Nutzer Rezepte nach Zutaten suchen kann. Troztdem konnten wir keine geeigente kostenlose Food-API finden. Die finale Version unseres Projekts bietet nur die Möglichkeit an, bestimmte Rezepte alphabetisch anzuzeigen. 
 
-## Weitere Hinweise
+## 📌 Weitere Hinweise
 
-_Notieren Sie hier falls nötig weitere Hinweise zur Ihrer App wie Informationen zum Testen Ihrer Anwendung (z.B. vorbereitete Zugangsdaten) oder NUtzungseinschränkungen (z.B. Abhängigkeit von besonderer Hardware)._
+Die Login-Funktion mit einem Google-Konto ist möglicherweise nicht auf einigen Geräten verfügbar und kann leider nur teilweise funktionieren.
